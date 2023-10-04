@@ -13,7 +13,10 @@ namespace SuperHeroes.Models
         public string Description { get; set; }
         public string ComicUniverse { get; set; }
 
+        [UseSorting]
         public ICollection<Superpower> Superpowers { get; set; }
+
+        [UseSorting]
         public ICollection<Villain> Villains { get; set; }
     }
 }
