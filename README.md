@@ -1,5 +1,5 @@
 # Lab1-GraphQL
-This repository contains an GraphQL Webapi Lab made for learning purposes.
+This repository contains a GraphQL Webapi Lab made for learning purposes.
 This project is managed by the .Net COE.
 
 ## Getting Started
@@ -41,12 +41,14 @@ Update Database
 
 ### Run the project
 Run the SuperHeroes Webapi project and Execute the following query in the Operations Tab on the Hot Chocolate Page:
+
 query{
 `superheroes{`
  name
 `}`
 }
-If the following response is showed then the project setup had been successful:
+
+If the following response is shown then the project setup has been successful:
 {
 "data": {
 `"superheroes": [`
