@@ -49,12 +49,11 @@ query{
 }
 
 If the following response is shown then the project setup has been successful:
-{
-"data": {
+
+{"data": {
 `"superheroes": [`
 
 `	  	{`"name": "Superman"``}`
 
 `]`
-}
 }
